@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise E:/verilog_projects/Adding_cpu/Adding_cpu.ise -intstyle ise -ifn E:/verilog_projects/Adding_cpu/AddingCPU.xst -ofn E:/verilog_projects/Adding_cpu/AddingCPU.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

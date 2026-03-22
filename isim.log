@@ -1,0 +1,57 @@
+Command line:
+   ./test1_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  11868
+
+Mon Mar 23 01:53:29 2026
+
+Total Line Count : 103
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 184.451 Meg
+
+ Total Signals          : 89
+ Total Nets             : 86
+ Total Signal Drivers   : 31
+ Total Blocks           : 9
+ Total Primitive Blocks : 6
+ Total Processes        : 41
+ Total Traceable Variables  : 42
+ Total Scalar Nets and Variables : 352
+ntrace select -o on -n /test1/reset 
+ntrace select -o on -n /test1/clk 
+ntrace select -o on -n /test1/temp11 
+ntrace select -o on -n /test1/adr_bus 
+ntrace select -o on -n /test1/uut/dp/data_bus 
+ntrace select -o on -n /test1/uut/dp/op_code 
+ntrace select -o on -n /test1/rd_mem 
+ntrace select -o on -n /test1/wr_mem 
+ntrace select -o on -n /test1/data_bus 
+ntrace select -o on -n /test1/control 
+ntrace select -o on -n /test1/data_array 
+ntrace select -o on -n /test1/uut/dp/ir_on_adr 
+ntrace select -o on -n /test1/uut/dp/pc_on_adr 
+ntrace select -o on -n /test1/uut/dp/dbus_on_data 
+ntrace select -o on -n /test1/uut/dp/data_on_dbus 
+ntrace select -o on -n /test1/uut/dp/ld_ir 
+ntrace select -o on -n /test1/uut/dp/ld_ac 
+ntrace select -o on -n /test1/uut/dp/ld_pc 
+ntrace select -o on -n /test1/uut/dp/inc_pc 
+ntrace select -o on -n /test1/uut/dp/clr_pc 
+ntrace select -o on -n /test1/uut/dp/pass 
+ntrace select -o on -n /test1/uut/dp/add 
+ntrace select -o on -n /test1/uut/dp/alu_on_dbus 
+ntrace select -o on -n /test1/uut/dp/clk 
+ntrace select -o on -n /test1/uut/dp/adr_bus 
+ntrace select -o on -n /test1/uut/dp/dbus 
+ntrace select -o on -n /test1/uut/dp/ir_out 
+ntrace select -o on -n /test1/uut/dp/a_side 
+ntrace select -o on -n /test1/uut/dp/alu_out 
+ntrace select -o on -n /test1/uut/dp/pc_out 
+ntrace select -o on -n /test1/uut/dp/implSig1 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

@@ -1,0 +1,45 @@
+Determining compilation order of HDL files
+Analyzing Verilog file PC.v
+Analyzing Verilog file IR.v
+Analyzing Verilog file ALU.v
+Analyzing Verilog file AC.v
+Analyzing Verilog file DataPath.v
+Analyzing Verilog file Controller.v
+Analyzing Verilog file AddingCPU.v
+Analyzing Verilog file test1.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.PC into
+e:/verilog_projects/adding_cpu/isim/work/@p@c.sdb
+Saving Verilog parse-tree work.IR into
+e:/verilog_projects/adding_cpu/isim/work/@i@r.sdb
+Saving Verilog parse-tree work.ALU into
+e:/verilog_projects/adding_cpu/isim/work/@a@l@u.sdb
+Saving Verilog parse-tree work.AC into
+e:/verilog_projects/adding_cpu/isim/work/@a@c.sdb
+Saving Verilog parse-tree work.DataPath into
+e:/verilog_projects/adding_cpu/isim/work/@data@path.sdb
+Saving Verilog parse-tree work.Controller into
+e:/verilog_projects/adding_cpu/isim/work/@controller.sdb
+Saving Verilog parse-tree work.AddingCPU into
+e:/verilog_projects/adding_cpu/isim/work/@adding@c@p@u.sdb
+Saving Verilog parse-tree work.test1 into
+e:/verilog_projects/adding_cpu/isim/work/test1.sdb
+Saving Verilog parse-tree work.glbl into
+e:/verilog_projects/adding_cpu/isim/work/glbl.sdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 148848 Kb
+Fuse CPU Usage: 93 ms
+Compiling module glbl
+Compiling module Controller
+Compiling module IR
+Compiling module PC
+Compiling module AC
+Compiling module ALU
+Compiling module DataPath
+Compiling module AddingCPU
+Compiling module test1
+Compiled 9 Verilog Units
+Built simulation executable test1_isim_beh.exe
+Fuse Memory Usage: 150960 Kb
+Fuse CPU Usage: 186 ms
