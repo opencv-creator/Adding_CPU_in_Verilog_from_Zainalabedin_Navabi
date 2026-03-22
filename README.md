@@ -52,7 +52,9 @@ data_array[15] = 8'b0000_1010;
 ------------------------------------------------------------------------------------------------------------------------------
 
 first instruction is Load AC --> 8'b00_00_1111 , that means load AC (Accumulator) with value at Address 1111 (value present at address 15) , now the value at location 15 is 0000_1010 is loaded into AC (Acumulator).
+
 second instruction is Add immedaite ---> 8'b1100_0001 , that means add the value inside Accumulator (i.e 0000_1010) ,now this value is added to the 0001 present in this second instruction.
+
 third instruction is Store AC ---> 8'b0100_1000 , that means store the value in Accumulator (i.e 1011 ) is stored in the 1000 address mentioned in this third instruction.
 
 ------------------------------------------------------------------------------------------------------------------------------
