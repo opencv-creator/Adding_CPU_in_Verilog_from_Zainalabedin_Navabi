@@ -82,6 +82,6 @@ time =               162000,op_code = 11, r=1 ,addr=  2, w =0, data_bus = 010010
 
 time =               180000,op_code = 01, r=0 ,addr=  z, w =0, data_bus = zzzzzzzz
 
-time =               200000,op_code = 01, r=0 ,addr=  8, w =1, data_bus = 00001011               --------->>>>>>>>>>>> here 1011 is stored at the address 8.
+time =               200000,op_code = 01, r=0 ,addr=  8, w =1, data_bus = 00001011       &nbsp;&nbsp;&nbsp;&nbsp;        ------->>>>>>>> here 1011 is stored at the address 8.
 
 time =               220000,op_code = 01, r=1 ,addr=  3, w =0, data_bus = zzzzzzzz
