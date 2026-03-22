@@ -15,7 +15,8 @@ to skip some input instructions supplied for execution.
 
 Exceution Output Explained
 ------------------------------------------------------------------------------------------------------------------------------
-    
+Instructions inside the data_array are executed by the Adding_CPU
+
 data_array[0] = 8'b0000_1111;
 
 data_array[1] = 8'b1100_0001;
@@ -47,6 +48,8 @@ data_array[13] = 8'b1100_0100;
 data_array[14] = 8'b0100_0101;
 
 data_array[15] = 8'b0000_1010;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 first instruction is Load AC --> 8'b00_00_1111 , that means load AC (Accumulator) with value at Address 1111 (value present at address 15) , now the value at location 15 is 0000_1010 is loaded into AC (Acumulator).
 second instruction is Add immedaite ---> 8'b1100_0001 , that means add the value inside Accumulator (i.e 0000_1010) ,now this value is added to the 0001 present in this second instruction.
