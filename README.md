@@ -1,6 +1,7 @@
 CREDITS OF THIS VERILOG CODE GOES TO THE GREAT BOOK and its Author (Verilog digital system design by Zainalabdein Navabi)
 ---------------------------------------------------------------------------------------------------------------------------
-this code is compiled in Xilinx 10.1 ISE and will also work in latest Xilinx Vivado Version.
+This code is compiled in Xilinx 10.1 ISE and will also work in latest Xilinx Vivado Version.
+
 Xilinx 10.1 ISE works perfectly in Windows 10 and Xilinx 14.7 works in Windows 11 with some minor 
 Tweaks during installation and those tweaks required for xilixn 14.7 instllation on windows 11 
 are available in Youtube.
