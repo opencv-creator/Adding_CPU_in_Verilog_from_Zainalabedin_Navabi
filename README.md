@@ -8,7 +8,7 @@ are available in Youtube.
 ************************ Caution *************************************
 
 Verilog Testbench contains the RAM which supplies the data to the Adding CPU through an 16 location Array . i didnt include a seperate RAM (memory ) module
-inside the ADding CPU because including a seperate RAM (memory) module inside the Adding_CPU has created significant delay in the CPU exceution and thus making CPU 
+inside the Adding CPU because including a seperate RAM (memory) module inside the Adding_CPU has created significant delay in the CPU exceution and thus making CPU 
 to skip some input instructions supplied for execution.
 
 **********************************************************************
