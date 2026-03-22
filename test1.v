@@ -64,7 +64,7 @@ module test1;
 	
 	
 	
-	 data_array[0] = 8'b0000_1111;
+	data_array[0] = 8'b0000_1111;
     data_array[1] = 8'b1100_0001;
     data_array[2] = 8'b0100_1000;
     data_array[3] = 8'b0000_0011;
